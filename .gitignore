@@ -1,0 +1,34 @@
+# Python-related files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore data files if not part of the repo
+*.csv
+
+# Ignore all parent directory files and system files
+../../../*
+
+# Ignore common system directories
+AppData/
+.ipython/
+.jupyter/
+.vscode/
+.conda/
+.docker/
+.cache/
+.env/
+venv/
+env/
+.bash_history
+.gitconfig
+.DS_Store
+*.log
+*.pdf
+*.docx
+*.txt
+*.url
+
